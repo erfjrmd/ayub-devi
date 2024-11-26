@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Million Dreams';
+    font-style: normal;
+    font-weight: 500;
+    src: url('MillionDreams.otf'),
+         url('milliondreams-webfont.html') format('woff2'),
+         url('milliondreams-webfont-2.html') format('woff');
+}
