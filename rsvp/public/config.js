@@ -34,7 +34,7 @@ function displayResponses(responses) {
 }
 
 // Ambil data RSVP saat halaman dimuat
-fetch('./api/responses')  // Ganti /responses menjadi /api/responses
+fetch('./api/responses')
   .then(response => response.json())
   .then(data => displayResponses(data))
   .catch(error => console.error('Gagal mengambil data:', error));
